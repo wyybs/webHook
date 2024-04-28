@@ -1,0 +1,42 @@
+2024-04-28 13:35:49 ***********开始部署***********
+2024-04-28 13:35:50 F:\study\test\webHook\cicd_test 不存在==》Git clone https://gitee.com/wyybs/cicd_test.git
+2024-04-28 13:35:51 进入 ==》 目录 F:\study\test\webHook\cicd_test
+2024-04-28 13:35:51 F:\study\test\webHook\cicd_test==》git拉取成功
+2024-04-28 13:35:51 -------开始安装依赖-------
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +31
++++++++++++++++++++++++++++++++
+Progress: resolved 31, reused 31, downloaded 0, added 31, done
+
+dependencies:
++ vue 3.4.25
+
+devDependencies:
++ @vitejs/plugin-vue 5.0.4
++ vite 5.2.10
+
+Done in 1s
+2024-04-28 13:35:53 -------安装依赖完成-------
+2024-04-28 13:35:53 -------开始编译-------
+
+> cicd_test@0.0.0 build F:\study\test\webHook\cicd_test
+> vite build
+
+[36mvite v5.2.10 [32mbuilding for production...[36m[39m
+transforming...
+[32m✓[39m 23 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m 0.44 kB[22m[1m[22m[2m │ gzip:  0.29 kB[22m
+[2mdist/[22m[35massets/index-DNRvKfFu.css  [39m[1m[2m 3.71 kB[22m[1m[22m[2m │ gzip:  1.19 kB[22m
+[2mdist/[22m[36massets/index-BlDXzO1H.js   [39m[1m[2m63.57 kB[22m[1m[22m[2m │ gzip: 25.21 kB[22m
+[32m✓ built in 824ms[39m
+2024-04-28 13:35:58 -------编译完成-------
+2024-04-28 13:35:58 -------开始复制dist-------
+2024-04-28 13:35:59 -------复制dist完成-------
+2024-04-28 13:35:59 -------开始删除 F:\study\test\webHook\cicd_test-------
+2024-04-28 13:35:59 -------删除 F:\study\test\webHook\cicd_test 完成-------
+2024-04-28 13:35:59 ***********部署完成**************
+
+

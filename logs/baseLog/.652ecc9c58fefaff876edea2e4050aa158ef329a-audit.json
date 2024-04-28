@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "F:\\study\\test\\webHook\\logs\\baseLog\\.652ecc9c58fefaff876edea2e4050aa158ef329a-audit.json",
+    "files": [
+        {
+            "date": 1714272533429,
+            "name": "F:\\study\\test\\webHook\\logs\\baseLog\\log-2024-04-28.log",
+            "hash": "26ac2075019b95eeee3dc421726baca9d5e4c4d86cc39b3181b7e45c0035fc08"
+        }
+    ],
+    "hashType": "sha256"
+}
